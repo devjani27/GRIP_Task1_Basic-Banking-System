@@ -1,0 +1,105 @@
+body, html{
+    margin:0;
+    padding:0;
+  }
+.menu_bar{
+    padding-top:10px;
+    background-color:rgb(21, 21, 151);
+    height:95px!important;
+    margin-top:-10px!important;
+    margin-left:-10px;
+    margin-right:-10px;
+
+}
+.menu_bar .im{
+    margin-left:40px!important;
+    margin-top:2px;
+    height: 100%;
+    object-fit: contain;
+    object-position:10px; 
+}
+.menu_bar h1{
+    color:yellow;
+    margin-left:145px;
+    margin-top:-70px!important;
+    font-family: 'Josefin Slab', serif;
+    width:100%;
+    font-weight:bold;
+    text-shadow: 1px 1px 2px black;
+    font-size:25px;
+    justify-content: space-between;
+    letter-spacing:3px;
+    text-transform: uppercase;
+}
+.menu_bar h3{
+    color:white;
+    margin-left:170px;
+    margin-top:-7px!important;
+    font-family: 'Josefin Slab', serif;
+    width:100%;
+    font-size: 15px;
+    font-weight: 100;
+    text-shadow: 1px 1px 2px black;
+    justify-content: space-between;
+    letter-spacing:3px;
+}
+.menu_icons{
+    padding-right:20px;
+    display:inline-flex;
+    flex-wrap:wrap;
+    float:right;
+    margin-top:-60px;
+    
+}
+
+.menu_icons ul{
+    
+    display:inline-flex;
+    flex-wrap:wrap;
+    float:right;
+    padding-top:10px;
+}
+.menu_icons ul li {
+   
+    padding:10px 10px;   
+}
+
+.menu_icons ul li a{
+    
+    color:rgb(162, 204, 233);
+    border:2px solid rgb(134, 125, 125);
+    padding:10px 10px;
+    text-decoration:none;
+    background-color:rgb(22, 22, 21);
+    
+}
+.menu_icons ul li a:hover{
+    
+    background-color:rgb(173, 236, 26);
+    color:black;
+
+}
+.menu_icons ul li a:hover .ic{
+    
+    color:yellow!important;
+}
+body
+{
+    background-image: url("images/background1.jpeg");
+    background-position:centered;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.bu{
+    background-color: rgba(235, 179, 205, 0.719);
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+h1{
+    color:rgb(4, 112, 4);
+}
